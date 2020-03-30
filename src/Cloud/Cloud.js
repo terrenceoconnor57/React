@@ -24,11 +24,11 @@ const Cloud = (props) => {
   return (
 <Center>
     <StyledDiv1>
-  <button className = 'AWS'>AWS</button>
+  <button className = 'AWS'>{props.Aws}</button>
   <BtnDiv></BtnDiv>
-  <button className = 'AZU'>Azure</button>
+  <button className = 'AZU'>{props.Azure}</button>
   <BtnDiv></BtnDiv>
-  <button className = 'GCP'>Google</button>
+  <button className = 'GCP'>{props.Gcp}</button>
   <BtnDiv></BtnDiv>
   </StyledDiv1>
 </Center>

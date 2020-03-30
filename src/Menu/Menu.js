@@ -4,14 +4,12 @@ import styled from 'styled-components';
 
 
 
-
 const StyledDiv1 = styled.div`
 text-align: right;
 margin-top: none;
 margin-right: 0px;
 margin-left: 0px;
-height: 67px;
-
+height: 55px;
 background: white;
 `
 
@@ -25,12 +23,18 @@ const WhichDiv = styled.div`
 width: 300px;
 display: inline-block;
 `
+const UseDiv = styled.div`
+width: 50px;
+display: inline-block;
+`
+
 
 const Menu = (props) => {
   return (
 
     <StyledDiv1>
     <button className = "Which">CloudWhich</button>
+
     <WhichDiv></WhichDiv>
   <button>About</button>
 

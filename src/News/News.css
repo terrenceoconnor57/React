@@ -1,0 +1,43 @@
+.News1 {
+  background-image: url("awsnews.jpg");
+  font-family: arial black;
+  border-radius: 7px;
+  width: 230px;
+  height: 150px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.News2 {
+  background-image: url("microsoft.jpg");
+  font-family: arial black;
+  border-radius: 7px;
+  width: 230px;
+  height: 150px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.News3 {
+  background-image: url("google.jpeg");
+  font-family: arial black;
+  border-radius: 7px;
+  width: 230px;
+  height: 150px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.News4 {
+  background-image: url("cloud.jpg");
+  font-family: arial black;
+  border-radius: 7px;
+  width: 230px;
+  height: 150px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}

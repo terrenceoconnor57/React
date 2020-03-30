@@ -19,7 +19,8 @@ const Cloudwhich = (props) => {
   return (
 
     <StyledCloud>
-<h1>CloudWhich</h1>
+<h1></h1>
+<h3></h3>
 </StyledCloud>
 
 )

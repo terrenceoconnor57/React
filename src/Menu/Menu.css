@@ -1,8 +1,8 @@
 button {
   font-family: arial black;
-  margin-top: 7px;
+  margin-top: 0px;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   border: none;
   background: none;
 }
@@ -14,4 +14,8 @@ button:hover {
 .Which {
   float: left;
   font-size: 32px;
+}
+
+.Which:hover {
+  color: black;
 }
