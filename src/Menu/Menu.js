@@ -6,10 +6,10 @@ import styled from 'styled-components';
 
 
 const StyledDiv1 = styled.div`
-background: grey;
-text-align: center;
+text-align: right;
 height: 50px;
-margin: 10px;
+margin-top: 0px;
+margin-right: 0px;
 border-radius: 10px;
 padding: 10px;
 `
@@ -24,13 +24,13 @@ const Menu = (props) => {
   return (
 
     <StyledDiv1>
-  <button>Button 1</button>
+  <button>About</button>
   <BtnDiv></BtnDiv>
-  <button>Button 2</button>
+  <button>Contact</button>
   <BtnDiv></BtnDiv>
-  <button>Button 3</button>
+  <button>GitHub</button>
   <BtnDiv></BtnDiv>
-  <button>Button 4</button>
+  <button>Why CloudWhich?</button>
   <BtnDiv></BtnDiv>
   </StyledDiv1>
 
