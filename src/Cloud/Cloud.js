@@ -1,17 +1,24 @@
 import React from 'react';
-import './Menu.css'
+import './Cloud.css'
 import styled from 'styled-components';
 
 
+const Center = styled.div`
+position: absolute;
+padding-left: 250px;
+
+`
 
 
 const StyledDiv1 = styled.div`
-background: grey;
+
+background: black;
 text-align: center;
-height: 50px;
+height: 200px;
+width: 600px;
 margin: 10px;
 border-radius: 10px;
-padding: 10px;
+padding: 20px;
 `
 
 
@@ -20,22 +27,18 @@ width: 15px;
 display: inline-block;
 `
 
-const Menu = (props) => {
+const Cloud = (props) => {
   return (
-
+<Center>
     <StyledDiv1>
-  <button>Button 1</button>
+  <button className = 'AWS'>AWS</button>
   <BtnDiv></BtnDiv>
-  <button>Button 2</button>
-  <BtnDiv></BtnDiv>
-  <button>Button 3</button>
-  <BtnDiv></BtnDiv>
-  <button>Button 4</button>
+  <button className = 'AZU'>Azure</button>
   <BtnDiv></BtnDiv>
   </StyledDiv1>
-
+</Center>
 )
 }
 
 
-export default Menu;
+export default Cloud;
