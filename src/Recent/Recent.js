@@ -12,7 +12,7 @@ import styled from 'styled-components';
 const Recent = (props) => {
   return (
 <div>
-<h2>Recent News in the Industry</h2>
+<h2>Recent Industry News</h2>
 </div>
 )
 }

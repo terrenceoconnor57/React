@@ -3,6 +3,8 @@ import './App.css';
 import Menu from './Menu/Menu';
 import Cloud from './Cloud/Cloud';
 import Recent from './Recent/Recent';
+import Cloudwhich from './Cloudwhich/Cloudwhich';
+
 
 
 class App extends Component {

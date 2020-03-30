@@ -7,11 +7,12 @@ import styled from 'styled-components';
 
 const StyledDiv1 = styled.div`
 text-align: right;
-height: 50px;
-margin-top: 0px;
+margin-top: none;
 margin-right: 0px;
-border-radius: 10px;
-padding: 10px;
+margin-left: 0px;
+height: 67px;
+
+background: white;
 `
 
 
@@ -20,11 +21,19 @@ width: 15px;
 display: inline-block;
 `
 
+const WhichDiv = styled.div`
+width: 300px;
+display: inline-block;
+`
+
 const Menu = (props) => {
   return (
 
     <StyledDiv1>
+    <button className = "Which">CloudWhich</button>
+    <WhichDiv></WhichDiv>
   <button>About</button>
+
   <BtnDiv></BtnDiv>
   <button>Contact</button>
   <BtnDiv></BtnDiv>
