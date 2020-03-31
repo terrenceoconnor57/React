@@ -8,9 +8,17 @@ import News from './News/News';
 
 
 class App extends Component {
+state = {
+  links: [
+    'https://aws.amazon.com/',
+    'https://azure.microsoft.com/en-us/',
+    'https://cloud.google.com/'
 
 
-  
+  ]
+}
+
+
 
 
 
@@ -20,23 +28,25 @@ class App extends Component {
 
   return (
     <div className="App">
+
+
     <Menu/>
     <Recent top  ='Recent Industry News'/>
 
     <News/>
 
     <Recent resource = 'Resources by Company:'/>
-    <Cloud Aws ='AWS' Azure = 'Azure' Gcp = 'Google'/>
+    <Cloud Amazon = {this.state.links[0]} Micro = {this.state.links[1]} Ggl = {this.state.links[2]} Aws = 'AWS'  Azure = 'Azure' Gcp = 'Google' />
     <br/>
-    <Cloud Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
+    <Cloud Amazon = {this.state.links[0]} Micro = {this.state.links[1]} Ggl = {this.state.links[2]} Source = 'Storage' Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
     <br/>
-    <Cloud Aws = 'EC2' Azure = 'VM' Gcp = '?'/>
+    <Cloud Amazon = {this.state.links[0]} Micro = {this.state.links[1]} Ggl = {this.state.links[2]} Source = 'Compute' Aws = 'EC2' Azure = 'VM' Gcp = '?'/>
     <br/>
-    <Cloud Aws = 'VPC' Azure = 'Vnet' Gcp = '?'/>
+    <Cloud Amazon = {this.state.links[0]} Micro = {this.state.links[1]} Ggl = {this.state.links[2]} Source = 'Networking' Aws = 'VPC' Azure = 'Vnet' Gcp = '?'/>
     <br/>
-    <Cloud Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
+    <Cloud Amazon = {this.state.links[0]} Micro = {this.state.links[1]} Ggl = {this.state.links[2]} Source = 'Serverless' Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
     <br/>
-    <Cloud Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
+    <Cloud Amazon = {this.state.links[0]} Micro = {this.state.links[1]} Ggl = {this.state.links[2]} Source = 'Templates' Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
     </div>
 
 
