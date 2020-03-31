@@ -10,7 +10,7 @@ import News from './News/News';
 class App extends Component {
 
 
-
+  
 
 
 
@@ -21,9 +21,12 @@ class App extends Component {
   return (
     <div className="App">
     <Menu/>
-    <Recent/>
-    <br/>
+    <Recent top  ='Recent Industry News'/>
+
     <News/>
+
+    <Recent resource = 'Resources by Company:'/>
+    <Cloud Aws ='AWS' Azure = 'Azure' Gcp = 'Google'/>
     <br/>
     <Cloud Aws = 'S3' Azure = 'Storage' Gcp = '?'/>
     <br/>
