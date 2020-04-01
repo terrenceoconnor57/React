@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Center = styled.div`
 padding-left: 10px;
 padding-right: 10px;
+margin-top: 75px;
 `
 
 const StyledDiv1 = styled.div`

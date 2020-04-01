@@ -1,11 +1,37 @@
-.AWS, .AZU, .GCP {
+.AWS {
   font-family: arial black;
   border-radius: 7px;
-  width: 200px;
-  height: 140px;
+  width: 225px;
+  height: 165px;
   text-align: center;
   font-size: 30px;
-  background: white;
+  background: beige;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.AZU {
+  font-family: arial black;
+  border-radius: 7px;
+  width: 225px;
+  height: 165px;
+  text-align: center;
+  font-size: 30px;
+  background: #6495ED;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.GCP {
+  font-family: arial black;
+  border-radius: 7px;
+  width: 225px;
+  height: 165px;
+  text-align: center;
+  font-size: 30px;
+  background: purple;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .ResGroup {
@@ -16,4 +42,13 @@
   text-align: center;
   font-size: 30px;
   padding-right: 20px;
+}
+
+.GCP:hover, .AWS:hover, .AZU:hover {
+  color: black;
+  opacity:  0.7;
+}
+
+.ResGroup:hover {
+  color: black;
 }

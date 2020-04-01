@@ -33,7 +33,7 @@ const Menu = (props) => {
   return (
 
     <StyledDiv1>
-    <button className = "Which">CloudWhich</button>
+    <button className = "Which">CloudWhich.com</button>
 
     <WhichDiv></WhichDiv>
   <button>About</button>

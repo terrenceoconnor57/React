@@ -7,6 +7,7 @@
   text-align: center;
   font-size: 40px;
   color: white;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .News2 {
@@ -18,6 +19,7 @@
   text-align: center;
   font-size: 40px;
   color: white;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .News3 {
@@ -29,6 +31,7 @@
   text-align: center;
   font-size: 40px;
   color: white;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .News4 {
@@ -40,5 +43,11 @@
   text-align: center;
   font-size: 40px;
   color: white;
-  
+  box-shadow: 5px 5px 5px grey;
+
+}
+
+.News1:hover, .News2:hover, .News3:hover, .News4:hover {
+  height: 160px;
+  width: 270px;
 }

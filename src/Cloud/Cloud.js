@@ -6,15 +6,13 @@ import styled from 'styled-components';
 const Center = styled.div`
 padding-left: 5px;
 padding-right: 5px;
-padding-top: 50px;
+padding-top: 0px;
+background: none;
+
+
 `
 
 
-const StyledDiv1 = styled.div`
-text-align: center;
-border-radius: 10px;
-
-`
 
 
 const BtnDiv = styled.div`
@@ -27,14 +25,11 @@ display: inline-block;
 
 
 
-
-
-
 const Cloud = (props) => {
   return (
 
 <Center>
-    <StyledDiv1>
+
     <button className = 'ResGroup'>{props.Source}</button>
     <BtnDiv></BtnDiv>
   <button className = 'AWS' onClick={()=> window.open(props.Amazon)}>{props.Aws}</button>
@@ -43,7 +38,6 @@ const Cloud = (props) => {
   <BtnDiv></BtnDiv>
   <button className = 'GCP' onClick={()=> window.open(props.Ggl)}>{props.Gcp}</button>
   <BtnDiv></BtnDiv>
-  </StyledDiv1>
 </Center>
 )
 }

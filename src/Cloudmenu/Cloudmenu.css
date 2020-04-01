@@ -1,0 +1,25 @@
+.Ama, .Azur, .Goo {
+  font-family: arial black;
+  border-radius: 7px;
+  width: 225px;
+  height: 150px;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 0px;
+
+}
+
+.Ama:hover, .Azur:hover, .Goo:hover {
+  color: black;
+}
+
+.none {
+  font-family: arial black;
+  border-radius: 7px;
+  width: 200px;
+  height: 140px;
+  text-align: center;
+  font-size: 30px;
+  padding-right: 20px;
+  padding-top: 0;
+}
